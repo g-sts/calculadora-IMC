@@ -2,6 +2,7 @@ let nome = document.querySelector('#inome')
 let altura = document.querySelector('#ialtura')
 let peso = document.querySelector('#ipeso')
 let display = document.querySelector('#display')
+let button = document.querySelector('#btn')
 
 let imc 
 
@@ -12,7 +13,7 @@ button.addEventListener('click', calcularImc)
 function calcularImc(){
 
 
-    imc = peso.value / altura.value * altura.value
+    imc = peso.value / (altura.value * altura.value)
 
     let res = ''
 
@@ -29,7 +30,7 @@ function calcularImc(){
         res = 'na faixa da obesidade!'
     }
 
-    display.innerHTML = `${nome} seu IMC é ${imc} e você está ${res}`
+    display.innerHTML = `${nome.value} seu IMC é ${imc} e você está ${res}`
 }
     
 
