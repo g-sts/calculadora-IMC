@@ -81,12 +81,18 @@ button:active{
 }
 
 div#display{
+    display: flex;
+    align-items: center;
+    text-align: center;
+
     background-color: #ffffc8;
+    color: black;
 
     height: 170px;
     width: 300px;
 
     margin-top: 40px;
+    padding: 10px;
 
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.322);
 }
