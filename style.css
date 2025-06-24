@@ -4,8 +4,86 @@
    margin: 0px; 
    padding: 0px;
    box-sizing: border-box;
+
+    color: white;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.438);
 }
 
 body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #ffffc8;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#calculadora{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    height: 600px;
+    width: 400px;
+
+    border-radius: 20px;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.342);
+
+    background-color: #ffa500;
+}
+
+div>h1{
+    padding: 30px;
+}
+
+div.entrada{
+    margin-bottom: 40px;
+}
+
+input{
+    height: 40px;
+
+    background-color: #ffffc8;
+
+    outline: none;
+    border: none;
+    border-radius: 10px;
+
+    margin-left: 20px;
+
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.322);
+}
+
+input:focus{
+    outline: 2px solid #ff8800;
+}
+
+button{
+    width: 300px;
+    height: 30px;
+
+    background-color: #ffffc8;
+    color: #ff7300;
+    text-shadow: none;
+
+    border: none;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0);
+    
+    cursor: pointer;
+}
+
+button:active{
+    opacity: 0.7;
+}
+
+div#display{
+    background-color: #ffffc8;
+
+    height: 170px;
+    width: 300px;
+
+    margin-top: 40px;
+
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.322);
 }
