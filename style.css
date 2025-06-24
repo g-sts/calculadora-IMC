@@ -6,7 +6,6 @@
    box-sizing: border-box;
 
     color: white;
-    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.438);
 }
 
 body{
@@ -35,16 +34,21 @@ div#calculadora{
 
 div>h1{
     padding: 30px;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.438);
 }
 
 div.entrada{
     margin-bottom: 40px;
 }
 
+label{
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.438);
+}
 input{
     height: 40px;
 
     background-color: #ffffc8;
+    color: black;
 
     outline: none;
     border: none;
@@ -65,7 +69,6 @@ button{
 
     background-color: #ffffc8;
     color: #ff7300;
-    text-shadow: none;
 
     border: none;
     box-shadow: 0px 0px 3px rgba(0, 0, 0, 0);
