@@ -7,21 +7,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
+    <div id="calculadora">
         <h1>Calculadora - IMC</h1>
         
-        <div>
-            <label for="inome">Nome: </label>
-            <input type="text" id="inome">
-            <label for="ialtura">Altura:</label>
-            <input type="text" id="ialtura">
-            <label for="ipeso">Peso: </label>
-            <input type="text" id="ipeso">
-        </div>
+        
+            <div class="entrada">
+                <label for="inome">Nome: </label>
+                <input type="text" id="inome">
+            </div>
+            <div class="entrada">
+                <label for="ialtura">Altura:</label>
+                <input type="text" id="ialtura">
+            </div>
+            <div class="entrada">
+                <label for="ipeso">Peso: </label>
+                <input type="text" id="ipeso">
+            </div>
+        
 
         <button>Calcular</button>
 
-        <div></div>
+        <div id="display"></div>
         
     </div>
 </body>
