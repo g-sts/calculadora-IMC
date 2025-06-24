@@ -18,9 +18,9 @@ Aplicação front-end simples desenvolvida com HTML, CSS e JavaScript puro que p
 2. Ao clicar no botão **Calcular**, o sistema verifica se todos os campos foram preenchidos.  
 3. O IMC é calculado pela fórmula:
 
-   \[
-   IMC = \frac{peso}{(altura / 100)^2}
-   \]
+ $$
+   \text{IMC} = \frac{\text{peso}}{\left(\frac{\text{altura}}{100}\right)^2}
+ $$
 
 4. De acordo com o valor do IMC, é exibida uma mensagem indicando a faixa de peso:
    - IMC < 18,5: abaixo do peso  
